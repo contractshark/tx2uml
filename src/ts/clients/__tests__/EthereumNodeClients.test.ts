@@ -4,7 +4,10 @@ import OpenEthereumClient from "../OpenEthereumClient"
 import { MessageType, Trace } from "../../transaction"
 import { EthersMatchers } from "../../utils/jest"
 import GethClient from "../GethClient"
+import HyperledgerBesuClient from "../HyperledgerBesuClient"
 import EthereumNodeClient from "../EthereumNodeClient"
+
+
 
 jest.setTimeout(60000) // timeout for each test in milliseconds
 // Extend the Jest matchers with Ethers BigNumber matchers like toEqualBN
